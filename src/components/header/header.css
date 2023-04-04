@@ -35,7 +35,7 @@
     transition: .3s;
 }
 
-.nav__close, .nav__toggle {
+.nav__close, .nav__toggle, .nav__icon {
     display: none;
 }
 
