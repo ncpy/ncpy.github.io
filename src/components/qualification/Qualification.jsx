@@ -8,7 +8,7 @@ const Qualification = () => {
         setToggleState(index)
     }
     return (
-        <section className="qualification section"/*  id="services" */>
+        <section className="qualification section" id="portfolio">
             <h2 className="section__title">Qualification</h2>
             <span className="section__subtitle">My Personel Journey</span>
 
