@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import './qualification.css'
+//import './qualification.css'
+import './experience.css'
 
 const Qualification = () => {
     const [toggleState, setToggleState] = useState(1)
@@ -9,10 +10,56 @@ const Qualification = () => {
     }
     return (
         <section className="qualification section" id="portfolio">
-            <h2 className="section__title">Qualification</h2>
-            <span className="section__subtitle">My Personel Journey</span>
+            <h2 className="section__title">Experience</h2>
+            <span className="section__subtitle">My Journey</span>
 
-            <div className="qualification__container container">
+            <div className="qualification__container container grid">
+                <div className="experience">
+                    <div className="timeline">
+                        <div className="timeline__item">
+                            <div className="circle__dot"></div>
+                            <span className="timeline__date">
+                                <i className="bx bx-calendar"></i> 2022 - Present
+                            </span>
+                            <h3 className="timeline__title">Full Stack Developer</h3>
+                            <p className="timeline__text">asdfjkhsdfsfasdfsd</p>
+                        </div>
+
+                        <div className="timeline__item">
+                            <div className="circle__dot"></div>
+                            <span className="timeline__date">
+                                <i className="bx bx-calendar"></i> 2021 - 2022
+                            </span>
+                            <h3 className="timeline__title">Wordpress Developer</h3>
+                            <p className="timeline__text">ömnvcfdrytweıopfdşımlsjktrf</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="experience">
+                    <div className="timeline">
+                        <div className="timeline__item">
+                            <div className="circle__dot"></div>
+                            <span className="timeline__date">
+                                <i className="bx bx-calendar"></i> 2020 - 2021
+                            </span>
+                            <h3 className="timeline__title">Android Developer</h3>
+                            <p className="timeline__text">kljhgujktrffghjkdsf</p>
+                        </div>
+
+                        <div className="timeline__item">
+                            <div className="circle__dot"></div>
+                            <span className="timeline__date">
+                                <i className="bx bx-calendar"></i> 2018 - 2019
+                            </span>
+                            <h3 className="timeline__title">Python Developer</h3>
+                            <p className="timeline__text">sdfsdfsdfsdfsd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* <div className="qualification__container container">
                 <div className="qualification__tabs">
                     <div className={toggleState === 1
                         ? "qualification__button qualification__active buton--flex"
@@ -168,7 +215,7 @@ const Qualification = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }
