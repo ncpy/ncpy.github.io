@@ -3,13 +3,14 @@ import React, { useState } from 'react'
 import './experience.css'
 
 const Qualification = () => {
-    const [toggleState, setToggleState] = useState(1)
+    /* const [toggleState, setToggleState] = useState(1)
 
     const toggleTab = (index) => {
         setToggleState(index)
-    }
+    } */
+    
     return (
-        <section className="qualification section" id="portfolio">
+        <section className="qualification__section" id="portfolio">
             <h2 className="section__title">Experience</h2>
             <span className="section__subtitle">My Journey</span>
 
