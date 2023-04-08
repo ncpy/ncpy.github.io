@@ -3,7 +3,7 @@ import WorkItems from './WorkItems'
 import { projectsData, projectsNav } from './Data'
 
 const Works = () => {
-    const [item, setItem] = useState({ name: 'All' })
+    const [item, setItem] = useState({ name: 'all' })
     const [projects, setProjects] = useState([])
     const [active, setActive] = useState(0)
 
