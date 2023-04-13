@@ -1,11 +1,12 @@
 {
   "name": "necip-yolcu-portfolio",
   "version": "1.0.0",
-  "homepage": "https://ncpy.github.io/",
+  "homepage": "https://ncpy.github.io/ncpy.github.io",
   "description": "",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build --output-path=.",
     "test": "echo \"Error: no test specified\" && exit 1"
