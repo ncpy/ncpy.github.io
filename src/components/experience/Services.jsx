@@ -42,7 +42,6 @@ const Services = () => {
                                 </span>
                             </div>
                             <p className="services__modal-description">
-                                Service with more than 3 years of experience. Providing quality work to clients and companies.
                             </p>
 
                             <ul className="services__modal-my_experiences grid">
@@ -108,7 +107,6 @@ const Services = () => {
                                 </span>
                             </div>
                             <p className="services__modal-description">
-                                Service with more than 3 years of experience. Providing quality work to clients and companies.
                             </p>
 
                             <ul className="services__modal-my_experiences grid">
@@ -163,7 +161,6 @@ const Services = () => {
                                 </span>
                             </div>
                             <p className="services__modal-description">
-                                Service with more than 3 years of experience. Providing quality work to clients and companies.
                             </p>
 
                             <ul className="services__modal-my_experiences grid">
@@ -231,7 +228,6 @@ const Services = () => {
                             </div>
 
                             <p className="services__modal-description">
-                                Service with more than 3 years of experience. Providing quality work to clients and companies.
                             </p>
 
                             <ul className="services__modal-my_experiences grid">
