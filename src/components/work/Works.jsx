@@ -8,7 +8,6 @@ const Works = () => {
     const [active, setActive] = useState(0)
 
     useEffect(() => {
-        console.log("itemName",item.name)
         if (item.name === 'all') {
             setProjects(projectsData)
         } else {

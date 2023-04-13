@@ -14,7 +14,10 @@
     "@emailjs/browser": "^3.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-toastify": "^9.1.2"
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
+    "react-toastify": "^9.1.2",
+    "react-tooltip": "^5.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.21.3",

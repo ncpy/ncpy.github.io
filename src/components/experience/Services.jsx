@@ -48,27 +48,32 @@ const Services = () => {
                             <ul className="services__modal-my_experiences grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I develop the user interface</p>
+                                    <p className='services__modal-info'>Developed portfolio website</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>Web page development</p>
+                                    <p className='services__modal-info'>Created dashboard to simplify management of products (fetching, adding, editing) in any e-commerce websites</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I create ux element interactions.</p>
+                                    <p className='services__modal-info'>Developed an application for better communication between customers and designers</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I position your company brand.</p>
+                                    <p className='services__modal-info'>Users can create/edit products by uploading images in bulk and update their e-commerce websites</p>
                                 </li>
-
+                                
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>Design and mockups of products for companies.</p>
+                                    <p className='services__modal-info'>Enabling employees to choose their own meals</p>
+                                </li>
+                                
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className='services__modal-info'><b>Software:</b> <u>for Frontend:</u> JavaScript, React.js, Next.js, <br/><u>for Backend:</u> Node.js, MongoDB, PostgreSQL, Prisma, Multer, Jest</p>
                                 </li>
                             </ul>
 
@@ -109,30 +114,24 @@ const Services = () => {
                             <ul className="services__modal-my_experiences grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I develop the user interface</p>
+                                    <p className='services__modal-info'>
+                                        Developed wordpress websites (1 for magazine, 3 for e-commerce) <br/>
+                                        <a className='nav__link__website' href='https://bemolgiyim.com' target="_blank"><i class='bx bx-link'></i>bemolgiyim</a> <br/>
+                                        <a className='nav__link__website' href='https://lalehome.com' target="_blank"><i class='bx bx-link'></i>lalehome</a><br/>
+                                        <a className='nav__link__website' href='https://medipekfashion.com' target="_blank"><i class='bx bx-link'></i>medipekfashion</a>
+                                    </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>Web page development</p>
+                                    <p className='services__modal-info'>Managed an e-commerce website for online shopping</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I create ux element interactions.</p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I position your company brand.</p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>Design and mockups of products for companies.</p>
+                                    <p className='services__modal-info'><b>Software:</b> Wordpress, Html, Css, Php, Photoshop</p>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
@@ -170,27 +169,32 @@ const Services = () => {
                             <ul className="services__modal-my_experiences grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I develop the user interface</p>
+                                    <p className='services__modal-info'>Developed mobile application for Camera Streaming using Java</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>Web page development</p>
+                                    <p className='services__modal-info'>IP Camera and Android Camera streaming and image processing on it</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I create ux element interactions.</p>
+                                    <p className='services__modal-info'>Choosing android camera or external any IP camera for the input frame</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I position your company brand.</p>
+                                    <p className='services__modal-info'>Having an OpenCV processing for detecting motion or face</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>Design and mockups of products for companies.</p>
+                                    <p className='services__modal-info'>Counting the number of people as input and output</p>
+                                </li>
+                                
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className='services__modal-info'><b>Software:</b> <u>for Desktop App:</u> Python, Wxpython <br/><u>for Android App:</u> Java, Android Studio</p>
                                 </li>
                             </ul>
 
@@ -233,30 +237,24 @@ const Services = () => {
                             <ul className="services__modal-my_experiences grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I develop the user interface</p>
+                                    <p className='services__modal-info'>Developed desktop application using Python</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>Web page development</p>
+                                    <p className='services__modal-info'>Detail visualized tracking data of car movement (with GPS antenna and module mounted on car) for both real-time and offline analysis</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I create ux element interactions.</p>
+                                    <p className='services__modal-info'>Mapped of current or entire location data using OpenStreetMap</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>I position your company brand.</p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className='services__modal-info'>Design and mockups of products for companies.</p>
+                                    <p className='services__modal-info'><b>Software:</b> Python, wxpython, Data Visualization, OOP</p>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
