@@ -1,12 +1,5 @@
-import Python from '../../assets/python_48.png'
-import Java from '../../assets/java_48.png'
-import JavaScript from '../../assets/javascript_48.png'
-import TypeScript from '../../assets/typescript_48.png'
-import React from '../../assets/react_48.png'
-import NodeJS from '../../assets/nodejs_48.png'
-import Node from '../../assets/node_48.png'
-import PostgreSQL from '../../assets/postgresql_48.png'
-import Prisma from '../../assets/prisma_48.png'
+import { Tooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css'
 
 const WorkItems = ({ item }) => {
 
@@ -15,7 +8,12 @@ const WorkItems = ({ item }) => {
       <div className='work__img__container'>
         <img className='work__img' src={item.image} alt="" />
         <div class="work__tags">
-          {item.technologies.map(tech => <img src={tech} alt=""></img>)}
+          {Object.keys(item.technologies).map((tech) => 
+            <>
+              <img src={item.technologies[tech]} alt="" data-tooltip-id={`my_tooltip_${tech}`} data-tooltip-content={tech} />
+              <Tooltip id={`my_tooltip_${tech}`} />
+            </>
+          )}
           {/* <i class='bx bxl-javascript' style={{ fontSize: '3em'}}></i> */}
         </div>
       </div>

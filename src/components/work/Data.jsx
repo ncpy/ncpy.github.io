@@ -25,7 +25,8 @@ export const projectsData = [
         category: 'Web',
         source_github: "https://github.com/RAsoft-Technology-Software/CateringProject",
         source_demo: "",
-        technologies: [ React, Node, JavaScript, PostgreSQL, Prisma ]
+        //technologies: [ React, Node, JavaScript, PostgreSQL, Prisma ]
+        technologies: { "React":React, "Node":Node, "JavaScript":JavaScript, "PostgreSQL":PostgreSQL, "Prisma ORM":Prisma }
     },
     {
         id: 2,
@@ -34,7 +35,7 @@ export const projectsData = [
         category: 'Web',
         source_github: "https://github.com/RAsoft-Technology-Software/RAsoft-pys",
         source_demo: "https://pys.rasoft.com.tr",
-        technologies: [ React, Node, JavaScript, MongoDB ]
+        technologies: { "React":React, "Node":Node, "JavaScript":JavaScript, "MongoDB":MongoDB }
     },
     {
         id: 3,
@@ -43,7 +44,7 @@ export const projectsData = [
         category: 'App',
         source_github: "https://github.com/ncpy/vlc_camera_streaming",
         source_demo: "https://drive.google.com/file/d/1ZDUM4v5x5KyybK3pg1g1AePYFj93B6ba/view",
-        technologies: [ Java, AndroidStudio, ]
+        technologies: { "Java":Java, "Android Studio":AndroidStudio }
     },
     {
         id: 4,
@@ -52,7 +53,7 @@ export const projectsData = [
         category: 'Desktop',
         source_github: "",
         source_demo: "",
-        technologies: [ ]
+        technologies: { }
     },
     {
         id: 5,
@@ -61,7 +62,7 @@ export const projectsData = [
         category: 'Web',
         source_github: "https://github.com/RAsoft-Technology-Software/RAsoft-Web-Site",
         source_demo: "https://rasoft.dev/",
-        technologies: [ React, JavaScript, NextJS ]
+        technologies: { "React":React, "JavaScript":JavaScript, "NextJS":NextJS }
     },
 ]
 
