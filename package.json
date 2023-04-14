@@ -1,5 +1,5 @@
 {
-  "name": "necip-yolcu-portfolio",
+  "name": "necip_yolcu_portfolio",
   "version": "1.0.0",
   "homepage": "http://necip-yolcu.github.io/portfolio",
   "description": "",
@@ -8,6 +8,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build --output-path=.",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,6 +18,8 @@
     "@emailjs/browser": "^3.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
     "react-toastify": "^9.1.2",
     "react-tooltip": "^5.11.1"
   },
