@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ncpy.github.io/static/css/main.595ca097.css",
-    "main.js": "/ncpy.github.io/static/js/main.ff195416.js",
-    "static/media/NecipYOLCU_CV_nisan.pdf": "/ncpy.github.io/static/media/NecipYOLCU_CV_nisan.172ef92a54e864e718dd.pdf",
-    "static/media/profile_bw.jpg": "/ncpy.github.io/static/media/profile_bw.c78caefb6a9d6c5429c9.jpg",
-    "static/media/profile.jpg": "/ncpy.github.io/static/media/profile.62a68851da7f742ce646.jpg",
-    "static/media/work2.jpg": "/ncpy.github.io/static/media/work2.e52a0c2981a6c11ba468.jpg",
-    "static/media/work4.jpg": "/ncpy.github.io/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work5.jpg": "/ncpy.github.io/static/media/work5.094ec4a2224db8908873.jpg",
-    "static/media/work1.jpg": "/ncpy.github.io/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/ncpy.github.io/static/media/work3.135e9065694bc13dc31d.jpg",
-    "index.html": "/ncpy.github.io/index.html",
-    "main.595ca097.css.map": "/ncpy.github.io/static/css/main.595ca097.css.map",
-    "main.ff195416.js.map": "/ncpy.github.io/static/js/main.ff195416.js.map"
+    "main.css": "/necip/static/css/main.635c2cab.css",
+    "main.js": "/necip/static/js/main.daf30481.js",
+    "static/media/NecipYOLCU_CV_nisan.pdf": "/necip/static/media/NecipYOLCU_CV_nisan.172ef92a54e864e718dd.pdf",
+    "static/media/profile_bw.jpg": "/necip/static/media/profile_bw.c78caefb6a9d6c5429c9.jpg",
+    "static/media/profile.jpg": "/necip/static/media/profile.62a68851da7f742ce646.jpg",
+    "static/media/work2.jpg": "/necip/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/work4.jpg": "/necip/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/necip/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/necip/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/necip/static/media/work3.135e9065694bc13dc31d.jpg",
+    "index.html": "/necip/index.html",
+    "main.635c2cab.css.map": "/necip/static/css/main.635c2cab.css.map",
+    "main.daf30481.js.map": "/necip/static/js/main.daf30481.js.map"
   },
   "entrypoints": [
-    "static/css/main.595ca097.css",
-    "static/js/main.ff195416.js"
+    "static/css/main.635c2cab.css",
+    "static/js/main.daf30481.js"
   ]
 }
