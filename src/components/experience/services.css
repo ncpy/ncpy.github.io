@@ -8,7 +8,8 @@
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
-    padding: 6rem 0 2rem 2.5rem;
+    padding: 3rem 0 2rem 2.5rem;
+    border-radius: 1.25rem;
 }
 
 .services__icon {
@@ -60,11 +61,17 @@
 }
 
 .services__modal-content {
-    width: 500px;
+    width: 600px;
     position: relative;
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
+}
+
+.service__modal-detail {
+    display: flex;
+    justify-content: space-between;
+    font-weight: var(--font-medium);
 }
 
 .services__modal-close {
@@ -93,7 +100,7 @@
     margin-bottom: var(--mb-2);
 }
 
-.services__modal-services {
+.services__modal-my_experiences {
     row-gap: 0.75rem;
 }
 
@@ -114,6 +121,19 @@
     visibility: visible;
 }
 
+.nav__link__website {
+    position: relative;
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    transition: .4s;
+}
+
+.nav__link__website:hover {
+    color: var(--title-color-dark);
+    /* color: blueviolet; */
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -129,7 +149,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .services__container {
-        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+        padding: 1rem 0.5rem 1.25rem 1.5rem;
     }
 
     .services__icon {
