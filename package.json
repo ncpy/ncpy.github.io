@@ -1,7 +1,7 @@
 {
-  "name": "necip-yolcu-portfolio",
+  "name": "necip_yolcu_portfolio",
   "version": "1.0.0",
-  "homepage": "http://ncpy.github.io/necip",
+  "homepage": "http://necip-yolcu.github.io/portfolio",
   "description": "",
   "main": "index.js",
   "scripts": {
