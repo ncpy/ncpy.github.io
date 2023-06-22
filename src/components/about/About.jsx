@@ -1,10 +1,15 @@
 import React from 'react'
 //import ProfileImg from '../../assets/profile_bw.jpg'
-import CV from '../../assets/NecipYOLCU_CV_april.pdf'
+import CV from '../../assets/NecipYOLCU_CV.pdf'
 import Info from './Info'
 import './about.css'
+import { useState } from 'react'
+
 
 const About = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+
     return (
         <section className="about section" id='about'>
             <h2 className="section__title">About Me</h2>
@@ -19,8 +24,14 @@ const About = () => {
                     <p className="about__description">Software Developer, Completed several projects using React.js and Node.js
                         Having more than three years of experience on developing variety applications.
                     </p>
+                    <p className="about__description"> Underpromise and overdeliver :)
+                    </p>
 
-                    <a download='' href={CV} className="button button--flex">
+                    <a className="button button--flex" style={{ marginBottom: '10px', marginRight: '10px' }} onClick={() => setIsOpen(!isOpen)} >
+                        {isOpen ? 'Hide CV' : 'Show CV'}
+                    </a>
+
+                    <a download='' href={CV} className="button button--flex" style={{ marginBottom: '10px', marginRight: '10px' }}>
                         Download CV
                         <svg
                             class="button__icon"
@@ -49,6 +60,11 @@ const About = () => {
                         </svg>
                     </a>
 
+                    {isOpen && (
+                        <div style={{ marginTop: '10px' }}>
+                            <embed src={CV} width="100%" height="800px" type="application/pdf" />
+                        </div>
+                    )}
 
                 </div>
             </div>

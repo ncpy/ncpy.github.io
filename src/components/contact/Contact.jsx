@@ -47,8 +47,8 @@ const Contact = () => {
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">+48452043639</span>
-                            <a href="https://wa.me/15551234567?text=Hello" className="contact__button">
+                            <span className="contact__card-data">+48 452 043 639</span>
+                            <a href="https://wa.me/+48452043639?text=Hello" className="contact__button">
                                 Write to me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
@@ -58,7 +58,7 @@ const Contact = () => {
                             <i className="bx bx-phone contact__card-icon"></i>
 
                             <h3 className="contact__card-title">Tel</h3>
-                            <span className="contact__card-data">+48452043639</span>
+                            <span className="contact__card-data">+48 452 043 639</span>
                             <a href="tel:48452043639" className="contact__button">
                                 Call me{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -77,7 +77,7 @@ const Contact = () => {
                                 type="text"
                                 name='name'
                                 className="contact__form-input"
-                                placeholder='Insert your name'
+                                placeholder='Necip Yolcu'
                                 required
                             />
                         </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                                 type="email"
                                 name='email'
                                 className="contact__form-input"
-                                placeholder='Insert your email'
+                                placeholder='ncpyolcu@gmail.com'
                                 required
                             />
                         </div>
@@ -100,7 +100,7 @@ const Contact = () => {
                                 cols="30"
                                 rows="10"
                                 className='contact__form-input'
-                                placeholder='Write your message'
+                                placeholder='Hello...'
                                 required
                             ></textarea>
                         </div>

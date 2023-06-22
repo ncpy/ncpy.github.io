@@ -21,7 +21,7 @@ const WorkItems = ({ item }) => {
 
       <div className='code__demo__button'>
         <a href={item.source_github} className="work__button" target="_blank">Github</a>
-        <a href={item.source_demo} className="work__button fill" target="_blank">Live Demo</a>
+        {item.source_demo && <a href={item.source_demo} className="work__button fill" target="_blank">Live Demo</a>}
       </div>
     </div>
   )
