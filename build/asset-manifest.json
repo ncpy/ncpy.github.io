@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2a950a19.css",
-    "main.js": "/portfolio/static/js/main.552d05cf.js",
+    "main.css": "/portfolio/static/css/main.bd22ef29.css",
+    "main.js": "/portfolio/static/js/main.6361b74e.js",
     "static/media/work_catering.png": "/portfolio/static/media/work_catering.69baebd9c1d5ca9d6ffa.png",
-    "static/media/NecipYOLCU_CV_april.pdf": "/portfolio/static/media/NecipYOLCU_CV_april.172ef92a54e864e718dd.pdf",
+    "static/media/NecipYOLCU_CV.pdf": "/portfolio/static/media/NecipYOLCU_CV.0a227043df06c61e303b.pdf",
     "static/media/work_android.jpg": "/portfolio/static/media/work_android.66eccf37c52e8ff83011.jpg",
     "static/media/work_uber.png": "/portfolio/static/media/work_uber.18fab8d42a4a49f35b1c.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.62a68851da7f742ce646.jpg",
     "static/media/work_rasoft_portfolio.png": "/portfolio/static/media/work_rasoft_portfolio.3d1bce123f73078dcbfb.png",
     "static/media/work_pys.png": "/portfolio/static/media/work_pys.f6ff5d8685a007e06f79.png",
     "index.html": "/portfolio/index.html",
-    "main.2a950a19.css.map": "/portfolio/static/css/main.2a950a19.css.map",
-    "main.552d05cf.js.map": "/portfolio/static/js/main.552d05cf.js.map"
+    "main.bd22ef29.css.map": "/portfolio/static/css/main.bd22ef29.css.map",
+    "main.6361b74e.js.map": "/portfolio/static/js/main.6361b74e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a950a19.css",
-    "static/js/main.552d05cf.js"
+    "static/css/main.bd22ef29.css",
+    "static/js/main.6361b74e.js"
   ]
 }
